@@ -1,59 +1,36 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+nav {
+  text-align: Center;
+}
+
 body {
-  background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
 
-/* Headings */
+/* Set the font family for any h1, h2, or h3 heading */
 h1,
 h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-  text-align: center;
 }
 
-/* Header */
-header {
-  text-align: center;
-}
 
-/* Containers */
-div {
-  background-color: #eae2b7;
-  margin: auto;
-  width: 600px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Section Container for Image and Heading */
-#intro-section {
-  display: flex;
-  justify-content: space-between; /* Aligns image and text horizontally */
-  align-items: center; /* Vertically centers content */
-  padding: 20px;
-}
-
-/* Heading Styling */
-#intro-section h1 {
-  text-align: center; /* Centers heading within the section */
-  flex: 1; /* Allows heading to take up available space */
-}
-
-/* Text Styling Below Heading */
-#intro-section p {
-  text-align: left; /* Aligns text to the left */
-}
-
-/* Pete's Background Section */
-#background-section {
-  margin-top: 20px; /* Adds space below the intro section */
-}
 
 article {
   padding: 50px 0;
@@ -64,67 +41,29 @@ article div {
   width: 100%;
 }
 
-/* Paragraphs */
 p {
   line-height: 1.5;
 }
 
-/* Projects Container */
-#projects-container {
-  display: flex; /* Arrange projects in a single row */
-  gap: 20px; /* Add spacing between projects (adjust value as needed) */
-  flex-wrap: wrap; /* Optional: Wrap to next row if container width is exceeded */
-  justify-content: space-between; /* Distribute projects evenly */
-  margin: 20px 0; /* Add vertical spacing around the section */
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
 }
 
-/* Individual Project Styling */
-.project {
-  width: 30%; /* Adjust width to fit multiple projects in a row */
-  text-align: center; /* Center-align the content of each project */
-  padding: 10px; /* Add padding inside the project container */
-  background-color: #f5f5f5; /* Optional: Add a background color */
-  border-radius: 5px; /* Optional: Add rounded corners */
-}
-
-/* Project Description Styling */
-.project-description {
-  font-size: 14px; /* Set font size for project descriptions */
-  text-align: left; /* Align description text to the left */
-  margin-top: 10px; /* Add spacing above the description */
-}
-
-/* Links */
-a:link {
-  color: #d62828;
-}
-
-a:hover {
-  color: #f77f00;
-}
-
-nav a {
-  padding-left: 20px;
-}
-
-/* Images */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
 }
 
-.image-circle {
-  border: 2px solid #003049;
-  border-radius: 50%;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-}
-
-/* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+/* Add your solution below */
+
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
 }
