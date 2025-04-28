@@ -35,12 +35,12 @@ div {
   align-items: center;
 }
 
-.about1 {
-  align-items: center;
+/* Section Container for Image and Heading */
+#about h2 {
+  text-align: center;
+  margin: 0 auto;
 }
 
-
-/* Section Container for Image and Heading */
 #intro-section {
   display: flex;
   justify-content: space-between; /* Aligns image and text horizontally */
