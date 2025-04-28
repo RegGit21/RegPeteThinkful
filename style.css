@@ -35,6 +35,11 @@ div {
   align-items: center;
 }
 
+#about {
+  Text-align: center;
+}
+
+
 /* Section Container for Image and Heading */
 #intro-section {
   display: flex;
@@ -44,9 +49,6 @@ div {
 }
 
 
-#about1 {
-  text-align: center;
-}
 
 /* Heading Styling */
 #intro-section h1 {
