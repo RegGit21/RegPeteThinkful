@@ -43,6 +43,11 @@ div {
   padding: 20px;
 }
 
+
+#about{
+  text-align: center;
+}
+
 /* Heading Styling */
 #intro-section h1 {
   text-align: center; /* Centers heading within the section */
