@@ -59,6 +59,10 @@ div {
   text-align: left; /* Aligns text to the left */
 }
 
+.about1 {
+  padding-left: 50px;
+}
+
 /* Pete's Background Section */
 #background-section {
   margin-top: 20px; /* Adds space below the intro section */
